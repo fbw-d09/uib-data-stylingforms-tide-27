@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/background.jpg);
+  max-width: 800px;
+}
+
+.logo {
+  background-image: url(./images/logo.png);
+
+  margin: auto 250px;
+}
+
+.forms {
+  color: white;
+}
+
+.text {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(242, 245, 247, 0.563);
+  border: 5px solid black;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h5,
+span {
+  background-color: rgb(66, 65, 65);
+  padding: 5px;
+  margin: 0;
+  width: 300px;
+  text-align: left;
+}
+
+.input {
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(242, 245, 247);
+  /* border: 5px solid black; */
+  padding: 10px;
+  width: 300px;
+}
+
+.box {
+  flex-direction: column;
+
+  background-color: rgba(242, 245, 247, 0.563);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 200px;
+}
+
+#text-input {
+  font-style: italic;
+  color: lime;
+  flex-direction: column;
+}
+
+#email-input {
+  font-style: italic;
+}
+
+#password-input {
+  font-style: italic;
+}
+span {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.forms {
+  justify-content: center;
+}
+
+h2 {
+  color: rgb(115, 115, 115);
+  background-color: rgba(0, 0, 0, 0.704);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
