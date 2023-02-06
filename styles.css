@@ -4,13 +4,17 @@
 
 body {
   background-image: url(./images/background.jpg);
-  max-width: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: rem;
 }
 
 .logo {
+  display: flex;
   background-image: url(./images/logo.png);
-
+  background-repeat: no-repeat;
   margin: auto 250px;
+  margin-bottom: 50px;
 }
 
 .forms {
@@ -18,15 +22,16 @@ body {
 }
 
 .text {
+  display: flex;
   justify-content: center;
   text-align: center;
-  align-items: center;
+  flex-direction: column;
   background-color: rgba(242, 245, 247, 0.563);
   border: 5px solid black;
   position: relative;
-  margin-left: 200px;
-  margin-top: 50px;
+  margin-bottom: 500px;
   padding: 10px;
+  margin: auto 100px;
 }
 
 h3 {
@@ -53,14 +58,12 @@ span {
 
 .box {
   flex-direction: column;
-
-  background-color: rgba(242, 245, 247, 0.563);
+  margin: auto 105px;
+  background-color: rgba(157, 157, 157, 0.563);
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  margin-left: 200px;
 }
 
 #text-input {
@@ -89,10 +92,19 @@ div.forms {
 
 h2 {
   color: rgb(115, 115, 115);
-  background-color: rgba(0, 0, 0, 0.704);
+  background-color: rgba(39, 38, 38, 0.704);
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 200px;
+  /* margin-left: 200px; */
+  margin: auto 105px;
+}
+
+div.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto 105px;
 }
