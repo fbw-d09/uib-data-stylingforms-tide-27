@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: rem;
+}
+
+.logo {
+  /* background-image: url(./images/logo.png); */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  background-repeat: no-repeat;
+  margin: auto 250px;
+  margin-bottom: 50px;
+}
+
+.forms {
+  color: white;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgba(242, 245, 247, 0.563);
+  border: 5px solid black;
+  /* position: relative; */
+  margin-bottom: 500px;
+  padding: 10px;
+  margin: auto 100px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h5,
+span {
+  background-color: rgb(66, 65, 65);
+  padding: 5px;
+  margin: 0;
+  width: 300px;
+  text-align: left;
+}
+
+.input {
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(242, 245, 247);
+  /* border: 5px solid black; */
+  padding: 10px;
+  width: 300px;
+}
+
+.box {
+  flex-direction: column;
+  margin: auto 105px;
+  background-color: rgba(157, 157, 157, 0.563);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-input {
+  font-style: italic;
+  color: lime;
+  flex-direction: column;
+}
+
+#email-input {
+  font-style: italic;
+}
+
+#password-input {
+  font-style: italic;
+}
+span {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.forms {
+  justify-content: center;
+}
+
+h2 {
+  color: rgb(115, 115, 115);
+  background-color: rgba(39, 38, 38, 0.704);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 200px; */
+  margin: auto 105px;
+}
+
+div.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto 105px;
+}
