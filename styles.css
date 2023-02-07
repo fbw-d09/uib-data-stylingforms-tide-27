@@ -10,8 +10,10 @@ body {
 }
 
 .logo {
+  /* background-image: url(./images/logo.png); */
   display: flex;
-  background-image: url(./images/logo.png);
+  /* flex-wrap: wrap; */
+  justify-content: center;
   background-repeat: no-repeat;
   margin: auto 250px;
   margin-bottom: 50px;
@@ -28,7 +30,7 @@ body {
   flex-direction: column;
   background-color: rgba(242, 245, 247, 0.563);
   border: 5px solid black;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 500px;
   padding: 10px;
   margin: auto 100px;
